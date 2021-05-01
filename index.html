@@ -1,0 +1,46 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Document</title>
+</head>
+<body>
+    
+    <div class="container text-center-my-2">
+        <h1 class="text-center my-5">Tic Tac Toe</h1>
+
+        <div class="board">
+            <div class="row px-5">
+                <button data-id='0' class="btn col-4 border-top-0 border-left-0 border-bottom-3 border-right-3 border-secondary rounded-0"></button>
+                <button data-id='1' class="btn col-4 border-top-0 border-secondary rounded-0"></button>
+                <button data-id='2' class="btn col-4 border-top-0 border-bottom-3 border-right-0 border-secondary rounded-0"></button>
+    
+            </div>
+    
+            <div class="row px-5">
+                <button data-id='3' class="btn col-4 border-left-0 border-secondary rounded-0"></button>
+                <button data-id='4' class="btn col-4 border-3 border-secondary rounded-0"></button>
+                <button data-id='5' class="btn col-4 border-right-0 border-secondary rounded-0"></button>
+    
+            </div>
+    
+            <div class="row px-5">
+                <button data-id='6' class="btn col-4 border-left-0 border-bottom-0 border-secondary rounded-0"></button>
+                <button data-id='7' class="btn col-4 border-bottom-0 border-secondary rounded-0"></button>
+                <button data-id='8' class="btn col-4 border-bottom-0 border-right-0 border-secondary rounded-0"></button>
+            </div>
+        </div>
+
+        <div class="my-5">
+            <p class="text-center next-move">First move 'X'</p>
+            <h4 class="text-center text-success result"></h4>
+        </div>
+
+    </div>
+
+    <script src="scripts/app.js"></script>
+</body>
+</html>
